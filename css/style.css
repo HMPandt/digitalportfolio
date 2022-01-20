@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-image: url("../images/purplecat.jpeg");
+  background-size: 100%;
+}
+
+#contact{
+  background-image: url("../images/contact.jgp.jpg");
+  background-size: 100%;
+}
+
+nav{
+    background-color: rgb(17, 16, 13);
+    margin-top: 0px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(12, 10, 5, 0.986);
+    
+  }
+  
+nav li {
+    float: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    border-right: 1px solid rgb(147, 22, 179);
+    color: rgb(183, 10, 189);
+}
+nav li:last-child{
+  border-right: none;
+}
+  
+nav li a {
+    display: block;
+    color: rgb(172, 16, 172);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+nav li a:hover {
+    background-color: rgb(167, 16, 197);
+    color: rgb(250, 10, 250);
+  }
+li a:hover:not(.active) {
+    background-color: rgb(17, 14, 6);
+}
+.active{
+    background-color: rgb(97, 10, 97);
+}
+#contact{
+    text-align: right;
+}
+
+.icon{
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  float: right;
+ 
+}
+
+.icon a img{
+  width: 35px;
+  height: 35px;
+}
+
+.icon a{
+  padding: 6px;
+  background-color: rgb(97, 10, 97);
+}
+
+.icon a:hover{
+  background-color: rgb(250, 10, 250);
+}
+
+.iconpic :hover{
+  background: rgb(250, 10, 250);
+}
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  color: mediumorchid;
+}
+h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  color: rgb(211, 85, 194);
+}
+p{
+  width: 300px;
+  color: rgb(212, 29, 167);
+  margin: 15px;
+  font-size: 14px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#intro p{
+  margin-left: 60px;
+}
+
+.text{
+  color: mediumorchid;
+  margin: auto;
+}
+
+#me{
+  width: 300px;
+  height: 300px;
+  margin-left: 500px;
+  margin-top: -400px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px 10px rgba(255, 20, 145, 0.733);
+}
+
+#me img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+#header{
+  width: 500px;
+  position: relative;
+  margin-top: 350px;
+  margin-left: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  color: mediumorchid;
+}
+
+
+#CC{
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  color: mediumorchid;
+}
+
+
+#CC1{
+  float: left;
+  position: relative;
+  margin-top: 100px;
+  margin-left: 20px;
+  width: 400px;
+  background-color: rgba(255, 20, 145, 0.349);
+  border-radius: 20px;
+}
+
+
+#opl{
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 400px;
+  float: left;
+  position: relative;
+  background-color: rgba(255, 20, 145, 0.349);
+  border-radius: 20px;
+}
+
+#Va{
+  margin-top: 60px;
+
+}
+
+#werkzaamheden{
+  margin-top: 100px;
+  margin-left: 20px;
+  width: 400px;
+  float: left;
+  position: relative;
+  background-color: rgba(255, 20, 145, 0.349);
+  border-radius: 20px;
+}
+
+#detail{
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  width: 600px;
+  height: 700px;
+  background-color: rgba(199, 18, 175, 0.582);
+  text-align: center;
+  
+}
+
+#detail h2, p{
+  margin: auto;
+  text-align: center;
+  color: deeppink;
+}
+
+#aboutme{
+  float: left;
+  margin: auto;
+  margin-top: 400px;
+  width: 700px;
+  height: 600px;
+}
+
+.aboutp{
+  margin: auto;
+  text-align: center;
+  color: deeppink;
+  background-color: rgba(19, 1, 19, 0.658);
+}
+
+#info{
+  margin-top: 350px;
+  margin-right: 20px;
+  float: right;
+  width: 500px;
+  height: 600px;
+}
+
+#Javas{
+  margin: auto;
+  margin-top: 30px;
+  width: 500px;
+  height: 300px;
+}
+
+.projecten{
+  margin: auto;
+  width: 400px;
+  height: 300px;
+}
+
+.lily{
+  background-image: url("../images/purplecat.jpeg");
+  box-sizing: border-box;
+}
+.photos{
+  padding: 20px;
+  width: 255px;
+  height: 250px;
+  border-radius: 20px 0px 20px 0px;
+}
+#basketball{
+  border-radius: 20px 0px 20px 0px;
+  background-color: rgba(199, 21, 134, 0.493);
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 70px;
+  float: left;
+
+}
+
+#baking{
+  border-radius: 20px 0px 20px 0px;
+  background-color: rgba(199, 21, 134, 0.425);
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 70px;
+  float: left;
+}
+
+#drawing{
+  border-radius: 20px 0px 20px 0px;
+  background-color: rgba(199, 21, 134, 0.438);
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 70px;
+  float: left;
+}
+
+#gaming{
+  border-radius: 20px 0px 20px 0px;
+  background-color: rgba(199, 21, 134, 0.5);
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 70px;
+  float: left;
+}
+
+#writing{
+  border-radius: 20px 0px 20px 0px;
+  background-color: rgba(199, 21, 134, 0.445);
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 70px;
+  float: left;
+}
+
+#reading{
+  border-radius: 20px 0px 20px 0px;
+  background-color: rgba(199, 21, 134, 0.452);
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 70px;
+  float: left;
+}
+
+#opr2{
+  position: relative;
+  width: 400px;
+  height: 300px;
+  float: left;
+  margin: 30px;
+}
+
+#opr2 img{
+  width: 400px;
+  height: 300px;
+}
+
+#opr4{
+  float: left;
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: 30px;
+}
+
+#opr4 img{
+  float: left;
+  width: 300px;
+  height: 300px;
+}
+
+
+#opr5{
+  float: left;
+  position: relative;
+  width: 400px;
+  height: 300px;
+  margin: 30px;
+}
+
+#opr5 img{
+  width: 400px;
+  height: 250px;
+}
+
+#opr6{
+  margin-top: 100px;
+  float: left;
+  position: relative;
+  width: 800px;
+  height: 400px;
+  margin: 30px;
+}
+
+#opr6 img{
+  float: left;
+  width: 400px;
+  height: 350px;
+}
+
+#opr6B{
+  margin-top: 100px;
+  float: left;
+  position: relative;
+  width: 800px;
+  height: 400px;
+  margin: 30px;
+}
+
+#opr6B img{
+  float: left;
+  width: 400px;
+  height: 350px;
+}
