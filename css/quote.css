@@ -1,0 +1,35 @@
+
+body{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/photo-1521489871110-81dc5a61dbda.jpg);
+    box-sizing: border-box;
+}
+
+#bck{
+    margin: auto;
+    margin-top: 150px;
+    width: 400px;
+    height: 300px;
+    margin: center; 
+    
+}
+
+h1{
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+.generate{
+    margin-left: 130px;
+    width: 100px;
+    height: 30px;
+    font-size: large;
+}
+
+.para{
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 40px;
+}

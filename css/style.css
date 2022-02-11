@@ -202,9 +202,10 @@ p{
 #aboutme{
   float: left;
   margin: auto;
+  margin-left: 60px;
   margin-top: 400px;
-  width: 700px;
-  height: 600px;
+  width: 300px;
+  height: 500px;
 }
 
 .aboutp{
@@ -222,17 +223,29 @@ p{
   height: 600px;
 }
 
-#Javas{
+#ProjectC{
   margin: auto;
   margin-top: 30px;
-  width: 500px;
-  height: 300px;
+  width: 700px;
+  height: 600px;
 }
 
-.projecten{
+#ProjectC img{
+  width: 500px;
+  height: 400px;
+}
+
+
+
+.image.carrousel.active{
+  display: block;
   margin: auto;
-  width: 400px;
-  height: 300px;
+}
+
+.imagecarrousel{
+  display:none;
+  margin: auto;
+  max-height: 400px;
 }
 
 .lily{
@@ -381,4 +394,28 @@ p{
   float: left;
   width: 400px;
   height: 350px;
+}
+
+.quotegen{
+  width: 400px;
+  height: 300px;
+  float: left;
+  margin: 30px;
+}
+
+.quotegen img{
+  width: auto;
+}
+
+.codesub{
+  width: 500px;
+  height: 400px;
+  float: left;
+  margin: 30px;
+
+}
+
+.codesub img{
+  width: 400px;
+  height: 300px;
 }
