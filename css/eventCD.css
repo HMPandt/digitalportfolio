@@ -1,0 +1,43 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url("../images/zoom-livingroom.jpg");
+}
+
+.time-input, .submit{
+    font-size: 1.2em;
+    border: 1px solid black;
+}
+
+.hide{
+    display: none;
+}
+
+main{
+    margin: auto;
+    background-color: rgba(222, 184, 135, 0.548);
+    text-align: center;
+    width: 600px;
+    height: 350px;
+    border: 3px solid black;
+
+}
+
+.timer{
+    color: brown;
+    border: 2px solid black;
+    padding: 10px;
+    width: 80%;
+    margin: 2% auto 2% auto;
+}
+
+.timer h2{
+    margin-top: 0;
+}
+
+.count-down{
+    font-size: 5vw;
+    margin:  5px 0 5px 0;
+}
