@@ -9,7 +9,8 @@ const secSpan = document.querySelector(".sec");
 const announcementDiv = document.querySelector(".announcement");
 let timer = null;
 
-button.addEventListener("click", () => {
+button.addEventListener("click", () => // with this you can write your own function in the eventlistener () => {}
+{
     calcTime(new Date(timeInput.value)); //the value is the selected date 
     localStorage.setItem("eventDate", JSON.stringify(timeInput.value));
 });
